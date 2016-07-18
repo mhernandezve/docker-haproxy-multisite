@@ -1,6 +1,8 @@
-haproxy:
-  image: haproxy:1.6 
-  volumes:
-    - ./config/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
-  ports:
-    - "80:80"
+version: '2'
+services:
+  haproxy:
+    image: haproxy:1.6 
+    volumes:
+      - ./config/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    ports:
+      - "80:80"
