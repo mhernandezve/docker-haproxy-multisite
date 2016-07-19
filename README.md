@@ -1,5 +1,5 @@
 # docker-haproxy-multisite
-How to set reverse proxy with haproxy &amp; docker container for multisite
+How to set reverse proxy with haproxy and docker-compose container for multisite
 
 #### Use: 
 
